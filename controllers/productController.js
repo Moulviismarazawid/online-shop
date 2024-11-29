@@ -1,7 +1,11 @@
 import slugify from "slugify";
-import productModel from "../models/productModel.js";
 import categoryModel from "../models/categoryModel.js"
+import productModel from "../models/productModel.js";
+
 import fs from 'fs';
+
+
+
 
 export const createProductController = async (req, res) => {
     try {
@@ -279,3 +283,6 @@ export const productCategoryController = async (req, res) => {
         })
     }
 }
+
+
+// paymen
